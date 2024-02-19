@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col col-lg-6">
+      <figure class="bg-white p-3 rounded" style="border-left: .25rem solid #f68e9d;">
+        <blockquote class="blockquote pb-2">
+          <p><%= @question %></p>
+        </blockquote>
+        <figcaption class="blockquote-footer mb-0 font-italic">
+          You
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col col-lg-6">
+      <figure class="bg-warning-subtle p-3 rounded dialog border-start border-warning border-3">
+        <blockquote class="blockquote pb-2">
+          <p><%= @answer %></p>
+        </blockquote>
+        <figcaption class="blockquote-footer mb-0 font-italic">
+          Coach
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+
+<%= link_to "return", "/ask" %>
